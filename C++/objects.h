@@ -1,6 +1,8 @@
 #pragma once
 
 #include <iostream>
+#define PI 3.14159265
+#define NOT_SPECIFIED 0
 
 class Charge {
 public:
