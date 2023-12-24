@@ -9,7 +9,7 @@ int main(int argc, char* argv[]) {
 	entity.setVelocity(5);
 	entity.setAcceleration(0);
 
-	// entity, time, travelled, radiant
+	// entity, time, travelled, degree
 	RectilinearMotion motion(entity, 0, 0, 60);
 	motion.moveForward(3);
 	motion.display();

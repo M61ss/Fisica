@@ -128,10 +128,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="math_functions.cpp" />
     <ClCompile Include="motions.cpp" />
     <ClCompile Include="objects.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="macro.h" />
+    <ClInclude Include="math_functions.h" />
     <ClInclude Include="motions.h" />
     <ClInclude Include="objects.h" />
   </ItemGroup>

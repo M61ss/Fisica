@@ -24,12 +24,21 @@
     <ClCompile Include="motions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="math_functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="objects.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="motions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="math_functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="macro.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
