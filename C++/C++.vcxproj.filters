@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Internal Dependencies">
+      <UniqueIdentifier>{d89767b1-4030-43e3-af51-7e4ef5a0532d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Internal Dependencies">
+      <UniqueIdentifier>{af9adeae-2c34-4fcd-a267-07d3cba731ef}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -25,7 +31,7 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="math_functions.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Internal Dependencies</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -35,11 +41,11 @@
     <ClInclude Include="motions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="math_functions.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="macro.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Internal Dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="math_functions.h">
+      <Filter>Header Files\Internal Dependencies</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

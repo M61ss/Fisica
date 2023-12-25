@@ -68,8 +68,8 @@ double TriangleArea(const double base, const double h) {
 	return (base * h) / (double)2;
 }
 
-double SquareArea(const double side) {
-	return pow(side, 2);
+double SquareArea(const double l) {
+	return pow(l, 2);
 }
 
 double ParallelogramArea(const double base, const double h) {

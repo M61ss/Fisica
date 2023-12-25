@@ -52,22 +52,22 @@ extern double ScalarProductV(const double* v1, const double* v2, const size_t v1
 extern void ScalarProductS(double* v, const double k, const size_t v_size);
 
 // calcola l'area del triangolo date base e altezza
-extern double TriangleArea(const double base, const double altezza);
+extern double TriangleArea(const double base, const double h);
 
 // calcola l'area del quadrato dato il lato
-extern double SquareArea(const double lato);
+extern double SquareArea(const double l);
 
 // calcola l'area del parallelogramma date base e altezza
-extern double ParallelogramArea(const double base, const double altezza);
+extern double ParallelogramArea(const double base, const double h);
 
 // calcola l'area del rombo date le due diagonali
 extern double RhombusArea(const double d1, const double d2);
 
 // calcola l'area del trapezio date base minore (b1), base maggiore (b2) e altezza
-extern double TrapezeArea(const double b1, const double b2, const double altezza);
+extern double TrapezeArea(const double b1, const double b2, const double h);
 
 // calcola l'area della circonferenza dato il raggio
-extern double CircleArea(const double raggio);
+extern double CircleArea(const double r);
 
 // calcola l'area della corona circolare dato il raggio della circonferenza esterna e il raggio di quella interna
 extern double CircularCrownArea(const double rex, const double rin);
